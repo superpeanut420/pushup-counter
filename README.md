@@ -53,7 +53,7 @@ The system consists of:
 
 * STM32 Nucleo-F446RE
 * HC-SR04 Ultrasonic Sensor
-* Push Buttons (x3–4)
+* 4 Push Buttons
 * Buzzer
 * Breadboard / soldered connections
 
@@ -84,21 +84,6 @@ Configured using STM32CubeMX:
 
   * Uses threshold comparison
   * Tracks state (up/down)
-
----
-
-## Example Logic
-
-```c
-if (distance < lower_threshold) {
-    state = DOWN;
-}
-
-if (distance > upper_threshold && state == DOWN) {
-    reps++;
-    state = UP;
-}
-```
 
 ---
 
@@ -135,7 +120,7 @@ if (distance > upper_threshold && state == DOWN) {
 
 ## Demo
 
-Demo video: *(add your link here)*
+Demo video: [*(add your link here)*](https://drive.google.com/file/d/1alZVjgEafqNX0wpbjw6lo5poTt14o8Tl/view?usp=sharing)
 
 ---
 
