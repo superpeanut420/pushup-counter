@@ -120,7 +120,7 @@ Configured using STM32CubeMX:
 
 ## Demo
 
-Demo video: [*(add your link here)*](https://drive.google.com/file/d/1alZVjgEafqNX0wpbjw6lo5poTt14o8Tl/view?usp=sharing)
+Demo video: [*(Click here)*](https://drive.google.com/file/d/1alZVjgEafqNX0wpbjw6lo5poTt14o8Tl/view?usp=sharing)
 
 ---
 
