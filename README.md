@@ -126,6 +126,6 @@ Demo video: [*(Click here)*](https://drive.google.com/file/d/1alZVjgEafqNX0wpbjw
 
 ## Author
 
-Ian Luquis-Diaz
-Electrical and Computer Engineering
+Ian Luquis-Diaz\n
+Electrical and Computer Engineering\n
 University of Utah
