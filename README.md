@@ -67,45 +67,12 @@ Configured using STM32CubeMX:
 
 ---
 
-## Code Structure
-
-* `main.c`
-
-  * Contains core application logic
-  * Handles sensor reading, calibration, and rep counting
-
-* `readUltrasonicSensor()`
-
-  * Triggers ultrasonic pulse
-  * Measures echo duration
-  * Calculates distance
-
-* Rep detection logic
-
-  * Uses threshold comparison
-  * Tracks state (up/down)
-
----
-
-## Getting Started
-
-1. Open project in STM32CubeIDE
-2. Connect STM32 Nucleo-F446RE board
-3. Build and flash the program
-4. Calibrate:
-
-   * Press button for top position
-   * Press button for bottom position
-5. Start session and perform push-ups
-
----
-
 ## Limitations
 
 * Requires proper calibration for accurate results
 * Sensor readings may fluctuate due to movement or clothing
 * Prototype board is not optimized for durability
-* Not fully user-friendly in current form
+* Not fully user friendly in current form
 
 ---
 
@@ -114,7 +81,7 @@ Configured using STM32CubeMX:
 * Custom PCB for compact design
 * Improved filtering for sensor noise
 * Better user interface and calibration process
-* Profile-based tracking and stored workouts
+* Profile based tracking and stored workouts
 
 ---
 
